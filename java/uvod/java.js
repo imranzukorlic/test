@@ -1,5 +1,6 @@
 alert("gasi")
 console.log("Prvi ispis u JS konzoli")
+
 'nesto'//string
 65 //number
 true,false //boolean
