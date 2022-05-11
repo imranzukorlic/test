@@ -63,9 +63,10 @@
 
 // console.log( a && b && c)//and operator (vraca zadnjeg)
 
-const a = 4
-const b = false
+// const a = 4
+// const b = false
 
-console.log(a||b) //or operator (uvek vraca prvog)
+// console.log(a||b) //or operator (uvek vraca prvog)
 
-console.log(!1)
+// console.log(!1)  //not kad hocemo da negiramo nesto
+
