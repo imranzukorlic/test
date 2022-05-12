@@ -38,4 +38,7 @@ for (let i = 0; i <= 15; i++){ //+=2 je i=i+2  a obican plus je ++
 // }while()
 
 //fizzbuzz challenge
-//0-
+//0-100
+// /3 = fizz
+// /5 =buzz
+// /5,3 =fizzbuzz
