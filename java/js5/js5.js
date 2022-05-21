@@ -41,12 +41,14 @@ funkcija()
 
 function sabiraj(prvi, drugi, treci = false) {
     if (treci) {
-        return prvi + drugi + treci
+        return prvi + drugi + treci;
     } else {
-        return prvi + drugi
+        return prvi + drugi;
     }
 }
 console.log(sabiraj(2,2,));
+//domaci: DA UNESE TRI BROJA ,POTOM DA IH POMNOZI I DA ZADJE U ALERT
+//domaci:DA UNESE BROJ BROJEVA KOLKO NJIH ZELI DA UNESE, PA U PROMT DA BROJVE I U ALERT IZADJE PROIZVOD 
 
 
 
