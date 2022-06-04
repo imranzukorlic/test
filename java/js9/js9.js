@@ -10,7 +10,7 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const kvadrati = (pojam)=>  {
     const niz = pojam.filter(el=> el % 2 ===0)
     const kvadrati = niz.map(a=> a*a )
-    return  kvadrati.reduce((b,c)=> b+c)
+    return kvadrati.reduce((b,c)=> b+c)
 
 }
 console.log(kvadrati(numbers));
