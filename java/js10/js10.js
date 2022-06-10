@@ -8,7 +8,7 @@ const mycar = {
     pogon: 'prednji',
     menjac: 'auto',
     km: 240000,
-    kontakt:[06311111, 020333888],
+    kontakt:[06311111, 020333],
     servisi:{
         "datum-servisa": '04.maj',
         km: 230000,
