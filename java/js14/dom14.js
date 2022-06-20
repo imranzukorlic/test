@@ -60,9 +60,14 @@ const car = {
         
     },
     stop: function () {
-        this.startSpeed === 0
+        this.startSpeed = 0
+        
     },
 
+}
+function turoff() {
+    car.stop()
+    console.log("auto je ugaseno");
 }
 car.drive(28)
 car.drive(40)
@@ -70,4 +75,6 @@ car.break(45)
 car.drive(60)
 car.drive(100)
 car.break(25)
+turoff()
+
 console.log(car);
